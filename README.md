@@ -39,7 +39,7 @@ STM32 PWM Duty Cycle
 In normal settings, assuming you’re using the timer module in PWM mode and generating PWM signal in edge-aligned mode up-counting configuration. The duty cycle percentage is controlled by changing the value of the CCRx register. And the duty cycle equals (CCRx/ARR) [%].
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/58ce0807-331e-49f7-bc8d-373f82592a92)
 ## Procedure:
-```
+
 Step1: Open CubeMX & Create New Project
 Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed  as shown below and click on next 
 Step3: Configure Timer2 Peripheral To Operate In PWM Mode With CH1 Output
@@ -54,7 +54,7 @@ Step9. Create a new Proteus project and place STM32F40xx i.e. the same MCU for w
 14. After creation of the circuit as per requirement as shown below 
 Step10. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 Step14. click on debug and simulate using simulation as shown below 
-``` 
+
 ## STM 32 CUBE PROGRAM :
 ```
 /*
